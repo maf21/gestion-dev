@@ -10,12 +10,10 @@ const Home: NextPage = () => {
         <title>Home | Gestión de proyectos</title>
       </Head>
       Hello world
-      <br></br>
+      <br/>
       <Link href='/hola'>
-        <a>
-          ir a pag. hola <i className='fas fa-home'></i>
-        </a>
-        </Link>
+        <a>ir a pag. hola <i aria-hidden className="fas fa-home"></i></a>
+      </Link>
     </div>
   )
 }
